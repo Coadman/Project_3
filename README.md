@@ -39,3 +39,12 @@ OPTIONAL: add user-driven interaction, either before or after the ETL process. e
 BEFORE: provide a menu of options for the user to narrow the range of data being extracted from a data source (e.g. API or CSV file, where fields are known in advance).
 
 AFTER: Once the data is stored in the database, add user capability to extract filtered data from the database prior to loading it in a Pandas DataFrame or a JSON output from a Flask API.
+
+
+DATA SOURCES:
+
+    Medicare Data: https://catalog.data.gov/dataset/medicare-part-d-spending-by-drug-401d2
+
+    Medicaid Data: https://catalog.data.gov/dataset/medicaid-spending-by-drug-b6f77
+
+    
