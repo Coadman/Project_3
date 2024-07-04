@@ -6,7 +6,7 @@ const height = 400 - margin.top - margin.bottom
 
 // create the svg container for the chart
 
-const svg = d3.select("#medicaid_mftr").append("svg")
+const svg = d3.select("#MedicareNonsense").append("svg")
 .attr("width", width + margin.left + margin.right)
 .attr("height", height + margin.top + margin.bottom)
 .append("g")
@@ -14,13 +14,12 @@ const svg = d3.select("#medicaid_mftr").append("svg")
 
 // load and process data
 
-d3.csv("medicaid_manufacturers_transformed.csv").then(data => {
+d3.csv("Medicare_Drugs.csv").then(data => {
     data.forEach(d => {
         d.total = +d.total;
     });
-console.log(data)
 
-})
+
 // sort the data by total
 
 // set x and y scales
@@ -28,3 +27,6 @@ console.log(data)
 // create the x and y axes
 
 // add x and y axes to the chart
+// X axis
+
+})
