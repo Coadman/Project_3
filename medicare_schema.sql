@@ -35,6 +35,7 @@ CREATE TABLE Yearly_Spending_medicare  (
     FOREIGN KEY (Mftr_ID) REFERENCES Manufacturers_medicare(Mftr_ID)
 );
 
+/*
 CREATE TABLE Yearly_Aggregate_medicare  (
     Drug_ID INT,
     Year SMALLINT,
@@ -43,3 +44,7 @@ CREATE TABLE Yearly_Aggregate_medicare  (
     PRIMARY KEY (Drug_ID, Year),
     FOREIGN KEY (Drug_ID) REFERENCES Drugs_medicare(Drug_ID)
 );
+
+drop table Yearly_Aggregate_medicare;
+
+*/
