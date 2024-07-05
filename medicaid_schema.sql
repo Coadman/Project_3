@@ -26,15 +26,13 @@ CREATE TABLE Yearly_Spending_medicaid  (
     Tot_Spndng DECIMAL(15,2),
     Tot_Dsg_Unts DECIMAL(15,2),
     Tot_Clms INT,
-    Tot_Benes INT,
     Avg_Spnd_Per_Dsg_Unt_Wghtd DECIMAL(15,2),
     Avg_Spnd_Per_Clm DECIMAL(15,2),
-    Avg_Spnd_Per_Bene DECIMAL(15,2),
     Outlier_Flag BOOLEAN,
     FOREIGN KEY (Drug_ID) REFERENCES Drugs_medicaid(Drug_ID),
     FOREIGN KEY (Mftr_ID) REFERENCES Manufacturers_medicaid(Mftr_ID)
 );
-
+/*
 CREATE TABLE Yearly_Aggregate_medicaid  (
     Drug_ID INT,
     Year SMALLINT,
@@ -43,3 +41,6 @@ CREATE TABLE Yearly_Aggregate_medicaid  (
     PRIMARY KEY (Drug_ID, Year),
     FOREIGN KEY (Drug_ID) REFERENCES Drugs_medicaid(Drug_ID)
 );
+drop table Yearly_Aggregate_medicaid;
+
+*/
