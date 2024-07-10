@@ -1,5 +1,3 @@
-
-
 // Define the URLs for the CSV files
 const medicaidURL = 'https://raw.githubusercontent.com/Coadman/Project_3/main/csv_to_import/medicaid_yearly_spendings.csv';
 const medicareURL = 'https://raw.githubusercontent.com/Coadman/Project_3/main/csv_to_import/medicare_yearly_spendings.csv';
@@ -11,7 +9,6 @@ d3.csv(medicaidURL).then(function(data) {
         Mftr_Name: row.Mftr_Name,
         Tot_Spndng: +row.Tot_Spndng
     }));
-
     let bigSpendersMedicaid = medicaid2019.slice(0, 5);
 
     // Load the Medicare spending data
@@ -22,7 +19,6 @@ d3.csv(medicaidURL).then(function(data) {
             Mftr_Name: row.Mftr_Name,
             Tot_Spndng: +row.Tot_Spndng
         }));
-
         let bigSpendersMedicare = medicare2019.slice(0, 5);
 
         // Combine Medicaid and Medicare spending data for the grouped bar chart

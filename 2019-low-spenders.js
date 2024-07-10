@@ -10,7 +10,6 @@ d3.csv(medicaidURL).then(function(data) {
         Mftr_Name: row.Mftr_Name,
         Tot_Spndng: +row.Tot_Spndng
     }));
-
     let lowSpendersMedicaid = medicaid2019.slice(0, 5);
 
     // Load the Medicare spending data
@@ -21,7 +20,6 @@ d3.csv(medicaidURL).then(function(data) {
             Mftr_Name: row.Mftr_Name,
             Tot_Spndng: +row.Tot_Spndng
         }));
-
         let lowSpendersMedicare = medicare2019.slice(0, 5);
 
         // Combine Medicaid and Medicare spending data for the grouped bar chart

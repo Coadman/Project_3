@@ -6,10 +6,7 @@ const medicareURL = 'https://raw.githubusercontent.com/Coadman/Project_3/main/cs
 d3.csv(medicaidURL).then(function(medicaidData) {
     // Load the Medicare spending data
     d3.csv(medicareURL).then(function(medicareData) {
-        // Combine Medicaid and Medicare data into one array
         const combinedData = [...medicaidData, ...medicareData];
-
-        // Sort the combined data by year
         combinedData.sort((a, b) => a.Year - b.Year);
 
         // Calculate the maximum spending value per year
