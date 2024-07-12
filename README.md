@@ -1,24 +1,29 @@
 # Project_3
 
 Blue Men and Woman Group Project Proposal
+
 Tyler Coad, Rachel Klem, Amanuel Minassie, Austen Ortmeier
 
 Project Overview
+
 Topic: Medicaid v Medicare Spending By Drug
 1.	Which manufacturers supplied the greatest number of drugs to federal programs?
 2.	 How much did Medicaid spend per manufacturer per year? How much did Medicare spend?
 3.	What is the relationship between the number of manufacturers of a single drug and the price of that drug per year?
+
 
 Visualizations:
 1.	Chart showing manufacturers on X axis and spending dollars on Y axis
 2.	Chart of Medicare and Medicaid spending by manufacturer by year for the top 5 or 10 manufacturers between 2018-2022
 3.	TBD based on relationship determined in question 3.
 
+
 DATA SOURCES:
 
     Medicare Data: https://catalog.data.gov/dataset/medicare-part-d-spending-by-drug-401d2
 
     Medicaid Data: https://catalog.data.gov/dataset/medicaid-spending-by-drug-b6f77
+
 
 
 Data Engineering Track:
