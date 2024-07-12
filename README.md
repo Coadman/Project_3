@@ -1,10 +1,9 @@
 # Project_3
 
-Blue Men and Woman Group Project Proposal
+Blue Men and Woman Group Project Overview
 
 Tyler Coad, Rachel Klem, Amanuel Minassie, Austen Ortmeier
 
-Project Overview
 
 Topic: Medicaid v Medicare Spending By Drug
 1.	Which manufacturers supplied the greatest number of drugs to federal programs?
